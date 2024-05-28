@@ -821,7 +821,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1124,
@@ -1022,8 +1022,8 @@
 			"height": 123,
 			"id": "Agama-log-Node-d60b1625-cf8f-4d4e-bea4-53cb97c8ed34",
 			"position": {
-				"x": 226,
-				"y": 58
+				"x": 228.66666666666663,
+				"y": 59.333333333333314
 			},
 			"type": "log",
 			"data": {
@@ -1034,8 +1034,8 @@
 				"inRepeatBlock": false,
 				"inIterateBlock": false,
 				"position": {
-					"x": 226,
-					"y": 58
+					"x": 228.66666666666663,
+					"y": 59.333333333333314
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-d60b1625-cf8f-4d4e-bea4-53cb97c8ed34",
@@ -1047,17 +1047,17 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"Start execution of the password validation flow.\"",
+					"logMessage": "\"Start execution of the password validation flow.\" 0 false",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 226,
-				"y": 58
+				"x": 228.66666666666663,
+				"y": 59.333333333333314
 			}
 		},
 		{
