@@ -815,7 +815,7 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"User credentials collected successfully\" ",
+					"logMessage": "\"User credentials collected for %\" credentials.username",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
@@ -868,7 +868,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 924,
 				"y": 287
@@ -1053,7 +1053,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 228.66666666666663,
