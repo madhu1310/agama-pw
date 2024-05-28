@@ -815,7 +815,7 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"User credentials collected for %\" credentials.username ",
+					"logMessage": "\"User credentials collected successfully\" ",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
