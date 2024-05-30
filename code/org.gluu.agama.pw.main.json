@@ -685,7 +685,7 @@
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "uiFeedback.succeed"
 				},
-				"skake": false
+				"skake": true
 			},
 			"selected": false,
 			"dragging": false,
@@ -815,7 +815,7 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"User credentials collected for % % % \" credentials.username , colors[1], configParams.hostname",
+					"logMessage": "\"User credentials collected for % % % \" credentials.username  colors[1]  configParams.hostname",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
