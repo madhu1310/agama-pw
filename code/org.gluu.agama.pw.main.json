@@ -868,7 +868,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 924,
 				"y": 287
@@ -1004,13 +1004,23 @@
 							"variableTypeCheck": false,
 							"assignmentExpression": "{}",
 							"assignedVariableName": "uiFeedback"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "{\"red\", \"blue\", \"green\"}",
+							"assignedVariableName": "colours"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "{apiKey : \"1234322ccded\", hostname : \"www.mywebsite.com\", apiSecret : \"wdfwerw2342\"}",
+							"assignedVariableName": "configurationMap"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 426,
@@ -1672,8 +1682,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 216,
+		"x": 70,
+		"y": 109,
 		"zoom": 0.75
 	}
 }
