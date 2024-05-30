@@ -1006,12 +1006,12 @@
 							"assignedVariableName": "uiFeedback"
 						},
 						{
-							"variableTypeCheck": false,
+							"variableTypeCheck": true,
 							"assignmentExpression": "['red', 'blue', 'green']",
 							"assignedVariableName": "colors"
 						},
 						{
-							"variableTypeCheck": false,
+							"variableTypeCheck": true,
 							"assignmentExpression": "{apiKey : '1234322ccded' ,hostname : 'www.mywebsite.com', apiSecret : 'wdfwerw2342'}\n",
 							"assignedVariableName": "configurationParams"
 						}
