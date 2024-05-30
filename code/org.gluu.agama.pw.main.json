@@ -815,7 +815,7 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"User credentials collected for % % % \" credentials.username  colors[1]  configParams.hostname",
+					"logMessage": "\"User credentials collected for % % % \" credentials.username  colors[1]  configurationParams.hostname",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
@@ -1682,8 +1682,8 @@
 		}
 	],
 	"viewport": {
-		"x": 76.8573986117309,
-		"y": 163.80588787419535,
-		"zoom": 0.6529129224720931
+		"x": 10,
+		"y": 216,
+		"zoom": 0.75
 	}
 }
