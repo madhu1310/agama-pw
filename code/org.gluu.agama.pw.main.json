@@ -685,7 +685,7 @@
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "uiFeedback.succeed"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
