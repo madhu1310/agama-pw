@@ -15,7 +15,7 @@ count = Repeat 6 times max
      // Retrieve user credentials from UI.
      credentials = RRF "login-basic.ftlh" uiFeedback
      // Log the successfull  used credentials retrieval.
-     Log "@info User credentials collected for %" credentials.username
+     Log "@info User credentials collected for % % % " credentials.username , colors[1], configParams.hostname
      // Validate provided user credentials.
      uiFeedback.succeed = Call validationService validate credentials.username credentials.password
      Log "@info Validation done"
@@ -24,8 +24,8 @@ count = Repeat 6 times max
           // add entry in log file for successfull login attempt.
           Log "@info Valid credentials provided"
           // Password validation completed successfuly!
-          it_kwezz = {success:true, data: { userId: credentials.username}}
-          Finish it_kwezz
+          it_zjgal = {success:true, data: { userId: credentials.username}}
+          Finish it_zjgal
      // Invalid credentials provided.
      Log "@error Invalid credentials provided"
      When conf.ENABLE_LOCK is "true"
@@ -42,5 +42,5 @@ count = Repeat 6 times max
 // The login flow will end here with failure.
 Log "@info The maximum login attempt has been reached!"
 // Maximum attempts reached. Password validation failed!
-it_nwgcy = {success:false, error: "Password validation failed!"}
-Finish it_nwgcy
+it_auiqe = {success:false, error: "Password validation failed!"}
+Finish it_auiqe
