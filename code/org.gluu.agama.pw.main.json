@@ -1006,13 +1006,13 @@
 							"assignedVariableName": "uiFeedback"
 						},
 						{
-							"variableTypeCheck": true,
-							"assignmentExpression": "['red', 'blue', 'green']",
+							"variableTypeCheck": false,
+							"assignmentExpression": "[\"red\",\"blue\", \"green\"]",
 							"assignedVariableName": "colors"
 						},
 						{
-							"variableTypeCheck": true,
-							"assignmentExpression": "{apiKey : '1234322ccded' ,hostname : 'www.mywebsite.com', apiSecret : 'wdfwerw2342'}\n",
+							"variableTypeCheck": false,
+							"assignmentExpression": "{apiKey : \"1234322ccded\",hostname : \"www.mywebsite.com\", apiSecret : \"wdfwerw2342\"}\n",
 							"assignedVariableName": "configurationParams"
 						}
 					],
