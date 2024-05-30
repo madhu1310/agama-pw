@@ -1007,12 +1007,12 @@
 						},
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "{'red', 'blue', 'green}",
+							"assignmentExpression": "['red', 'blue', 'green]",
 							"assignedVariableName": "colors"
 						},
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "{apiKey : '1234322ccded', hostname : 'www.mywebsite.com', apiSecret : 'wdfwerw2342'}\n",
+							"assignmentExpression": "{apiKey : '1234322ccded' hostname : 'www.mywebsite.com', apiSecret : 'wdfwerw2342'}\n",
 							"assignedVariableName": "configurationParams"
 						}
 					],
