@@ -5,8 +5,8 @@ Flow org.gluu.agama.pw.main
 Log "@info Start execution of the password validation flow." 0 false
 //  Create json variable for UI feedback.
 uiFeedback = {}
-colors = {'red', 'blue', 'green}
-configurationParams = {apiKey : '1234322ccded', hostname : 'www.mywebsite.com', apiSecret : 'wdfwerw2342'}
+colors = ['red', 'blue', 'green]
+configurationParams = {apiKey : '1234322ccded' hostname : 'www.mywebsite.com', apiSecret : 'wdfwerw2342'}
 
 // Get an instance of PasswordService Class.
 validationService = Call org.gluu.agama.pw.PasswordService#getInstance conf
@@ -24,8 +24,8 @@ count = Repeat 6 times max
           // add entry in log file for successfull login attempt.
           Log "@info Valid credentials provided"
           // Password validation completed successfuly!
-          it_opaht = {success:true, data: { userId: credentials.username}}
-          Finish it_opaht
+          it_liodx = {success:true, data: { userId: credentials.username}}
+          Finish it_liodx
      // Invalid credentials provided.
      Log "@error Invalid credentials provided"
      When conf.ENABLE_LOCK is "true"
@@ -42,5 +42,5 @@ count = Repeat 6 times max
 // The login flow will end here with failure.
 Log "@info The maximum login attempt has been reached!"
 // Maximum attempts reached. Password validation failed!
-it_dpbnu = {success:false, error: "Password validation failed!"}
-Finish it_dpbnu
+it_wruob = {success:false, error: "Password validation failed!"}
+Finish it_wruob
