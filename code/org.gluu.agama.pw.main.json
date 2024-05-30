@@ -1007,7 +1007,7 @@
 						},
 						{
 							"variableTypeCheck": false,
-							"assignmentExpression": "['red', 'blue', 'green]",
+							"assignmentExpression": "['red', 'blue', 'green']",
 							"assignedVariableName": "colors"
 						},
 						{
