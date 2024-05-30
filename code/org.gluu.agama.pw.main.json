@@ -815,13 +815,13 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"User credentials collected for %\" credentials.username",
+					"logMessage": "\"User credentials collected for % % % \" credentials.username , colors[1], configParams.hostname",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1124,
@@ -1020,7 +1020,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 426,
@@ -1682,8 +1682,8 @@
 		}
 	],
 	"viewport": {
-		"x": 76.85739861173096,
-		"y": 195.80588787419538,
+		"x": 76.8573986117309,
+		"y": 163.80588787419535,
 		"zoom": 0.6529129224720931
 	}
 }
