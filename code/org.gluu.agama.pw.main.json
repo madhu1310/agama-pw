@@ -1018,7 +1018,7 @@
 					],
 					"nodeIcon": "material-symbols:equal"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
