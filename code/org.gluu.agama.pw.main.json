@@ -45,7 +45,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 2125.35,
 				"y": 483
@@ -416,8 +416,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2186,
-				"y": 343
+				"x": 4160,
+				"y": 630
 			}
 		},
 		{
@@ -596,8 +596,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 1724,
-				"y": 341
+				"x": 3248,
+				"y": 628
 			}
 		},
 		{
@@ -744,7 +744,7 @@
 			"id": "Agama-log-Node-844f14ea-7a7a-4766-90e2-f20ffae820db",
 			"position": {
 				"x": 1076,
-				"y": 56.666666666666686
+				"y": 58
 			},
 			"type": "log",
 			"data": {
@@ -756,7 +756,7 @@
 				"inIterateBlock": false,
 				"position": {
 					"x": 1076,
-					"y": 56.666666666666686
+					"y": 58
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-844f14ea-7a7a-4766-90e2-f20ffae820db",
@@ -782,7 +782,7 @@
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1076,
-				"y": 56.666666666666686
+				"y": 58
 			}
 		},
 		{
@@ -815,13 +815,13 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"User credentials collected for % % % \" credentials.username  colors[1]  configurationParams.hostname",
+					"logMessage": "\"User credentials collected successfully!\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1124,
@@ -993,7 +993,7 @@
 					"id": "Agama-assignment-Node-8238ebff-772a-4150-9141-72a4b1177f1d",
 					"parentId": "Agama-log-Node-d60b1625-cf8f-4d4e-bea4-53cb97c8ed34",
 					"type": "Agama-assignment-Node",
-					"displayName": "Initialize variables",
+					"displayName": "Declare variables",
 					"hasComment": true,
 					"comment": " Create json variable for UI feedback.",
 					"whenCondition": "WhenFalse",
@@ -1004,16 +1004,6 @@
 							"variableTypeCheck": false,
 							"assignmentExpression": "{}",
 							"assignedVariableName": "uiFeedback"
-						},
-						{
-							"variableTypeCheck": false,
-							"assignmentExpression": "[\"red\",\"blue\", \"green\"]",
-							"assignedVariableName": "colors"
-						},
-						{
-							"variableTypeCheck": false,
-							"assignmentExpression": "{apiKey : \"1234322ccded\",hostname : \"www.mywebsite.com\", apiSecret : \"wdfwerw2342\"}\n",
-							"assignedVariableName": "configurationParams"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -1032,8 +1022,8 @@
 			"height": 123,
 			"id": "Agama-log-Node-d60b1625-cf8f-4d4e-bea4-53cb97c8ed34",
 			"position": {
-				"x": 228.66666666666663,
-				"y": 59.333333333333314
+				"x": 226,
+				"y": 58
 			},
 			"type": "log",
 			"data": {
@@ -1044,8 +1034,8 @@
 				"inRepeatBlock": false,
 				"inIterateBlock": false,
 				"position": {
-					"x": 228.66666666666663,
-					"y": 59.333333333333314
+					"x": 226,
+					"y": 58
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-d60b1625-cf8f-4d4e-bea4-53cb97c8ed34",
@@ -1057,7 +1047,7 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "\"Start execution of the password validation flow.\" 0 false",
+					"logMessage": "\"Start execution of the password validation flow.\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
 				},
@@ -1066,8 +1056,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 228.66666666666663,
-				"y": 59.333333333333314
+				"x": 226,
+				"y": 58
 			}
 		},
 		{
@@ -1200,8 +1190,8 @@
 				"skake": false
 			},
 			"positionAbsolute": {
-				"x": 2903,
-				"y": 561
+				"x": 5607,
+				"y": 1122
 			},
 			"selected": false,
 			"dragging": false,
@@ -1682,8 +1672,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 216,
-		"zoom": 0.75
+		"x": -389.2624969482422,
+		"y": -31,
+		"zoom": 0.5
 	}
 }
